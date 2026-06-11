@@ -1,0 +1,148 @@
+# =====================
+# Segredos e Credenciais
+# =====================
+.env
+!.env.example
+.env.local
+.env.*.local
+.env.docker
+.env.docker.local
+.spring-boot-devtools.properties
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.truststore
+secrets/
+credentials/
+
+# =====================
+# Configurações Locais
+# =====================
+application-local.yml
+application-local.properties
+application-dev.yml
+application-dev.properties
+application-staging.yml
+application-staging.properties
+application-*.local.yml
+application-*.local.properties
+*.properties.local
+bootstrap-local.yml
+bootstrap-local.properties
+
+# =====================
+# IntelliJ IDEA
+# =====================
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+out/
+atlassian-ide-plugin.xml
+
+# =====================
+# Sistema Operacional
+# =====================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =====================
+# Java / JVM
+# =====================
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.hprof
+.mtj.tmp/
+hs_err_pid*
+replay_pid*
+*.pid
+
+# =====================
+# Maven
+# =====================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/jvm.config
+.mvn/maven.config
+!.mvn/wrapper/maven-wrapper.jar
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+docker-compose.local.yml
+docker/data/
+docker/volumes/
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+log/
+
+# =====================
+# Cobertura e Qualidade
+# =====================
+*.exec
+*.ec
+coverage/
+checkstyle-result.xml
+spotbugs.xml
+findbugs.xml
+pmd.xml
+.sonar/
+.scannerwork/
+
+# =====================
+# Geração de Código
+# =====================
+.apt_generated/
+.apt_generated_tests/
+
+# =====================
+# Arquivos Temporários
+# =====================
+/tmp/
+upload-dir/
+uploads/
+*.dump
+*.swp
+*.swo
+*.swn
+*.patch
+*.orig
+*.rej
+thread_dump*.txt
+.testcontainers.properties
+
+# =====================
+# Arquivos Compactados
+# =====================
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
