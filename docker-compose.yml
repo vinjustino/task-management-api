@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: task-management-db
+    environment:
+      POSTGRES_DB: task_management
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "5430:5432"
